@@ -1,0 +1,80 @@
+#addNoteBtn {
+  height: 40px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: green;
+  border-color: green;
+  border-width: 2px;
+}
+
+#addNoteBtn:hover {
+  background-color: green;
+  color: white;
+  outline: none;
+}
+
+#addNoteBtn:focus {
+  outline: none;
+}
+
+#addNote {
+  margin-bottom: 20px;
+}
+
+.noteContainer {
+  height: 100px;
+  width: 250px;
+  margin-bottom: 70px;
+}
+
+textarea {
+  border: 1px solid #cccccc;
+  resize: none;
+}
+
+textarea:focus {
+  outline:none;
+}
+
+textarea, .noteDisplay {
+  height: 100px;
+  padding: 5px;
+  width: 250px;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.saveBtn, .editBtn {
+  margin-left: 24px;
+}
+
+[color=blue] {
+  background-color: lightblue;
+}
+
+[color=red] {
+  background-color: pink;
+}
+
+[color=yellow] {
+  background-color: yellow;
+}
+
+.hidden {
+  display: none;
+}
+
+.deleteBtn {
+  background-color: pink;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: red;
+}
