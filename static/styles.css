@@ -1,0 +1,91 @@
+#addNoteBtn {
+  height: 40px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: green;
+  border-color: green;
+  border-width: 2px;
+}
+
+#addNoteBtn:hover {
+  background-color: green;
+  color: white;
+  outline: none;
+}
+
+#addNoteBtn:focus {
+  outline: none;
+}
+
+#addNote {
+  margin-bottom: 20px;
+}
+
+.noteContainer {
+  height: 100px;
+  width: 250px;
+  margin-bottom: 70px;
+}
+
+textarea {
+  box-shadow: 0 0 5px #ddd;
+  resize: none;
+  width: 100%;
+}
+
+textarea:focus {
+  outline:none;
+}
+
+textarea, .noteDisplay {
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.saveBtn, .editBtn {
+  margin-left: 26px;
+}
+
+.saveBtn {
+  border-radius: 5px;
+  background-color: #6DC6FF;
+  color: white;
+}
+
+.saveBtn:hover {
+  background-color: #009BFE;
+}
+
+[color=blue] {
+  background-color: #00AAFF;
+}
+
+[color=red] {
+  background-color: #CC2222;
+}
+
+[color=yellow] {
+  background-color: #F0E500;
+}
+
+.hidden {
+  display: none;
+}
+
+.deleteBtn {
+  background-color: #FC7777;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: red;
+}
