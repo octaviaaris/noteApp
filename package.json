@@ -1,0 +1,22 @@
+{
+  "name": "noteapp",
+  "version": "1.0.0",
+  "description": "A simple note-taking app (for learning and practice).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octaviaaris/noteApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octaviaaris/noteApp/issues"
+  },
+  "homepage": "https://github.com/octaviaaris/noteApp#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
